@@ -1,0 +1,6 @@
+{
+    "multicast_address": "224.50.50.50",
+    "multicast_port": "60210",
+	"tcp_port": "5555",
+    "aes_key": "ThWmZq4t7w!z%C*F-JaNdRgUjXn2r5u8"
+}

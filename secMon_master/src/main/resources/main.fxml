@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="662.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="listServReq" layoutX="58.0" layoutY="29.0" mnemonicParsing="false" onAction="#listServReq" text="List Service" />
+      <Button fx:id="addServ" layoutX="537.0" layoutY="340.0" mnemonicParsing="false" onAction="#addServ" text="Add Service" />
+      <ListView fx:id="listServLV" layoutX="58.0" layoutY="111.0" onMouseClicked="#stateServReq" prefHeight="200.0" prefWidth="194.0" />
+      <TextField fx:id="servAddTF" layoutX="61.0" layoutY="340.0" prefHeight="25.0" prefWidth="452.0" promptText="augmented_url" />
+      <Text fx:id="addMessage" layoutX="61.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="458.13673400878906" />
+      <TextArea fx:id="stateArea" editable="false" layoutX="318.0" layoutY="111.0" prefHeight="200.0" prefWidth="298.0" />
+   </children>
+</Pane>
